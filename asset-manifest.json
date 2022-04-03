@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/08_BlogrLandingPage/static/css/main.7da05e0d.chunk.css",
+    "main.js": "/08_BlogrLandingPage/static/js/main.980697f3.chunk.js",
+    "main.js.map": "/08_BlogrLandingPage/static/js/main.980697f3.chunk.js.map",
+    "runtime-main.js": "/08_BlogrLandingPage/static/js/runtime-main.44ec7a3a.js",
+    "runtime-main.js.map": "/08_BlogrLandingPage/static/js/runtime-main.44ec7a3a.js.map",
+    "static/js/2.fbc87e2f.chunk.js": "/08_BlogrLandingPage/static/js/2.fbc87e2f.chunk.js",
+    "static/js/2.fbc87e2f.chunk.js.map": "/08_BlogrLandingPage/static/js/2.fbc87e2f.chunk.js.map",
+    "index.html": "/08_BlogrLandingPage/index.html",
+    "static/css/main.7da05e0d.chunk.css.map": "/08_BlogrLandingPage/static/css/main.7da05e0d.chunk.css.map",
+    "static/js/2.fbc87e2f.chunk.js.LICENSE.txt": "/08_BlogrLandingPage/static/js/2.fbc87e2f.chunk.js.LICENSE.txt",
+    "static/media/Section3.css": "/08_BlogrLandingPage/static/media/illustration-phones.fd23559f.svg",
+    "static/media/Section1.css": "/08_BlogrLandingPage/static/media/logo.1591bc20.svg",
+    "static/media/icon-arrow-dark.5215f8d9.svg": "/08_BlogrLandingPage/static/media/icon-arrow-dark.5215f8d9.svg",
+    "static/media/icon-arrow-light.9ba0f38e.svg": "/08_BlogrLandingPage/static/media/icon-arrow-light.9ba0f38e.svg",
+    "static/media/Section2.css": "/08_BlogrLandingPage/static/media/illustration-editor-desktop.c6c8050a.svg",
+    "static/media/illustration-editor-mobile.b9c7941a.svg": "/08_BlogrLandingPage/static/media/illustration-editor-mobile.b9c7941a.svg",
+    "static/media/Section4.css": "/08_BlogrLandingPage/static/media/illustration-laptop-mobile.fe1ec0f0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44ec7a3a.js",
+    "static/js/2.fbc87e2f.chunk.js",
+    "static/css/main.7da05e0d.chunk.css",
+    "static/js/main.980697f3.chunk.js"
+  ]
+}
