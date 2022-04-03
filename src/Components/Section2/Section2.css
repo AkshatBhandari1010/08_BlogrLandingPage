@@ -1,0 +1,68 @@
+.sec2 {
+  overflow: hidden;
+  padding: 9em 0;
+}
+.sec2head {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sec2content {
+  display: flex;
+  padding: 4em 0;
+}
+.textBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 3em 0 2em 13em;
+  width: 55%;
+}
+.sec2desktopIllustrationDiv {
+  position: relative;
+  width: 45%;
+}
+.sec2desktopIllustrationDiv::after {
+  content: "";
+  background-image: url("../../images/illustration-editor-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 60em;
+  width: 60em;
+  position: absolute;
+  top: -43%;
+  left: 3%;
+}
+.sec2mobileIllustrationDiv {
+  display: none;
+}
+
+/* =================================================================== */
+
+@media (max-width: 1200px) {
+  .sec2head {
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+  .sec2desktopIllustrationDiv {
+    display: none;
+  }
+  .sec2content {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sec2mobileIllustrationDiv {
+    align-items: center;
+    display: flex;
+    height: 20em;
+    justify-content: center;
+    position: relative;
+  }
+  .textBlock {
+    align-items: center;
+    display: flex;
+    text-align: center;
+    padding: 5em 0em;
+    width: 100%;
+  }
+}

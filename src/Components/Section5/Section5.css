@@ -1,0 +1,41 @@
+.sec5{
+  background-color: hsl(240, 10%, 16%);
+  border-radius: 0 90px 0 0;
+  padding: 5em 10em 4em 10em;
+}
+.flex {
+  display: flex;
+}
+.sec5 .con {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.blogrLogo{
+  padding-left: 10px;
+}
+.sec5 h5 {
+  color: white;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+}
+.sec5 a {
+  color: hsl(240, 2%, 79%);
+  margin: 0 0 5px 0;
+}
+.sec5 a:hover{
+  text-decoration: underline white;
+}
+
+@media (max-width: 1200px){
+  .flex{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .blogrLogo{
+    margin-bottom: 4em;
+    
+  }
+}

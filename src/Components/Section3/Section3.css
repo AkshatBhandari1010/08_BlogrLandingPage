@@ -1,0 +1,121 @@
+.sec3 {
+  background-color: hsl(237, 17%, 21%);
+  background-image: url("../../images/bg-pattern-circles.svg");
+  background-position: -80% 83%;
+  background-repeat: no-repeat;
+  background-size: 75.5%;
+  border-radius: 0 90px 0 90px;
+  color: white;
+  display: flex;
+  height: 25em;
+}
+.left3,
+.right3 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+.left3 {
+  position: relative;
+}
+.left3::after{
+  background-image: url("../../images/illustration-phones.svg");
+  background-repeat: no-repeat;
+  background-size: 65%;
+  content: '';
+  height: 130%;
+  width: 110%;
+  position: absolute;
+  top: -15%;
+  left: 20%;
+}
+
+/* ======================== */
+
+@media (max-width: 1200px){
+  .sec3{
+    background-position: 50% 87.5%;
+    background-size: 164%;
+    flex-direction: column;
+    height: 28em;
+  }
+  .left3::after{
+    background-size: 105%;
+    content: '';
+    height: 25em;
+    width: 23.5em;
+    position: absolute;
+    top: -230%;
+    left: 35%;
+  }
+  .left3,
+  .right3{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .left3{
+    flex: 1;
+  }
+  .right3{
+    flex: 4;
+  }
+}
+
+/* ======================================================== */
+
+@media (max-width: 800px){
+  .sec3{
+    background-position: 50% 100%;
+  }
+  .left3::after{
+    left: 27%;
+  }
+}
+
+/* ======================================================== */
+
+@media (max-width: 600px){
+  .sec3{
+    background-position: 50% 120%;
+  }
+  .left3::after{
+    left: 15%;
+  }
+}
+
+/* ======================================================== */
+
+@media (max-width: 500px){
+  .sec3{
+    background-position: 50% 130%;
+  }
+  .left3::after{
+    left: 6%;
+  }
+}
+
+/* ======================= */
+
+@media (max-width: 400px){
+  .sec3{
+    background-position: 50% 190%;
+  }
+  .left3::after{
+    left: 0%;
+  }
+}
+
+/* ======================== */
+
+@media (max-width: 375px){
+  .sec3{
+    background-position: 50% 630%;
+    height: 36em;
+  }
+  .left3::after{
+    top: -170%;
+    left: -2%;
+  }
+}
